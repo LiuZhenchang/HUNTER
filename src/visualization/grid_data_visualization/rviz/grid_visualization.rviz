@@ -1,0 +1,129 @@
+Panels:
+  - Class: rviz/Displays
+    Name: Displays
+  - Class: rviz/Views
+    Name: Views
+  - Class: rviz/Time
+    Name: Time
+  - Class: rviz/Tool Properties
+    Name: Tool Properties
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Views
+    Name: Views
+  - Class: rviz/Time
+    Name: Time
+  - Class: rviz/Tool Properties
+    Name: Tool Properties
+  - Class: rviz/Selection
+    Name: Selection
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 1
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 160
+      Enabled: true
+      Line Style: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: 0
+    - Alpha: 1
+      Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /gaussian_plane_marker
+      Name: Markers
+      Namespace: ""
+      Queue Size: 10
+      Reference Frame: <Fixed Frame>
+      Value: 0
+  Enabled: true
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+      Name: Interact
+    - Class: rviz/MoveCamera
+      Name: Move Camera
+    - Class: rviz/Select
+      Name: Select
+    - Class: rviz/FocusCamera
+      Name: Focus Camera
+    - Class: rviz/Measure
+      Name: Measure
+    - Class: rviz/SetInitialPose
+      Name: 2D Pose Estimate
+    - Class: rviz/SetGoal
+      Name: 2D Nav Goal
+  Value: 0
+  Views:
+    Current:
+      Class: rviz/TopDownOrtho
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Name: Current View
+      Near Clip Distance: 0.01
+      Scale: 1
+      Value: 0
+    Saved: ~
+  config: ~
+  fixed_frame: map
+  frame_manager_class: rviz/FrameManager
+  global_options:
+    Background Color: 48; 48; 48
+    Fixed Frame: map
+    Frame Rate: 30
+    Value: 0
+  grid:
+    Alpha: 1
+    Cell Size: 1
+    Color: 160; 160; 160
+    Enabled: true
+    Line Style: Lines
+    Name: Grid
+    Normal Cell Count: 0
+    Offset:
+      X: 0
+      Y: 0
+      Z: 0
+    Plane: XY
+    Plane Cell Count: 10
+    Reference Frame: <Fixed Frame>
+    Value: 0
+  markers:
+    Alpha: 1
+    Class: rviz/Marker
+    Enabled: true
+    Marker Topic: /gaussian_plane_marker
+    Name: Markers
+    Namespace: ""
+    Queue Size: 10
+    Reference Frame: <Fixed Frame>
+    Value: 0
+  tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+      Name: Interact
+    - Class: rviz/MoveCamera
+      Name: Move Camera
+    - Class: rviz/Select
+      Name: Select
+    - Class: rviz/FocusCamera
+      Name: Focus Camera
+    - Class: rviz/Measure
+      Name: Measure
+    - Class: rviz/SetInitialPose
+      Name: 2D Pose Estimate
+    - Class: rviz/SetGoal
+      Name: 2D Nav Goal
+  value: 0

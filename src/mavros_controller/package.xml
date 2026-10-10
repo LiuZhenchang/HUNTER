@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>mavros_controller</name>
+  <version>0.1.0</version>
+  <description>MAVROS controller node that manages OFFBOARD mode, arming, and position setpoints, decoupled from planning.</description>
+
+  <maintainer email="maintainer@example.com">maintainer</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>mavros_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2</depend>
+  <depend>Eigen3</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

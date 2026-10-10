@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>search_manager</name>
+  <version>0.0.0</version>
+  <description>The search_manager package</description>
+  <maintainer email="user@todo.todo">user</maintainer>
+  <license>TODO</license>
+
+  <!-- Build tool dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Build dependencies -->
+  <build_depend>rclcpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>mavros_controller</build_depend>
+  <build_depend>search_env</build_depend>
+  <build_depend>dmpc</build_depend>
+  <build_depend>quadrotor_msgs</build_depend>
+  <build_depend>custom_msgs</build_depend>
+  <build_depend>grid_data_visualization</build_depend>
+
+  <!-- Build export dependencies -->
+  <build_export_depend>rclcpp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>nav_msgs</build_export_depend>
+  <build_export_depend>mavros_controller</build_export_depend>
+  <build_export_depend>search_env</build_export_depend>
+  <build_export_depend>dmpc</build_export_depend>
+  <build_export_depend>quadrotor_msgs</build_export_depend>
+  <build_export_depend>custom_msgs</build_export_depend>
+
+  <!-- Execution dependencies -->
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>mavros_controller</exec_depend>
+  <exec_depend>search_env</exec_depend>
+  <exec_depend>dmpc</exec_depend>
+  <exec_depend>quadrotor_msgs</exec_depend>
+  <exec_depend>custom_msgs</exec_depend>
+  <exec_depend>grid_data_visualization</exec_depend>
+
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
